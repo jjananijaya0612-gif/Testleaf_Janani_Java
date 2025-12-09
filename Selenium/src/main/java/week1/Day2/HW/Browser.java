@@ -1,5 +1,7 @@
 package week1.Day2.HW;
 
+import week1.Day1.HW.EmployeeDetails;
+
 public class Browser {
 	
 	// launchBrowser with given name
@@ -19,8 +21,10 @@ public class Browser {
 	// Create object for both of the methods
 	public static void main(String[] args)
 	{
+		
 		Browser brows = new Browser();
-		brows.launchBrowser("Firefox");
+		//brows.launchBrowser("Firefox");
+		brows.launchBrowser("Chrome");
 		String Url = brows.loadUrl();
 		System.out.println(Url);		
 	}

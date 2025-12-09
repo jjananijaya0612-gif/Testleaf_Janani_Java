@@ -1,9 +1,12 @@
 package week1.Day1.HW;
 
 public class EmployeeDetails {
+	
+	
 
 	public static void main(String[] args) {
-		
+
+
 		String name = "John Doe";
 		 byte age = 30;
 		 double salary = 55000.75;
